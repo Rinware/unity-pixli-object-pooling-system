@@ -3,7 +3,9 @@
     "references": [
         "com.pixel-lifetime.unity-pixli-miscellaneous"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "PS4"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
