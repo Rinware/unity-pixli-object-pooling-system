@@ -6,7 +6,6 @@
 	"unity": "2020.1",
 	"unityRelease": "2f1",
 	"dependencies": {
-		"com.pixel-lifetime.unity-pixli-miscellaneous": "https://github.com/PixelLifetime/unity-pixli-miscellaneous.git"
 	},
 	"keywords": [
 		"system",
