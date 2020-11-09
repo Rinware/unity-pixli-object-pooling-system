@@ -9,11 +9,9 @@ public class Poolable : MonoBehaviour, IPoolable
 
 	public void OnRelease()
 	{
-		this.gameObject.SetActive(value: false);
 	}
 
 	public void OnAquire()
 	{
-		this.gameObject.SetActive(value: true);
 	}
 }

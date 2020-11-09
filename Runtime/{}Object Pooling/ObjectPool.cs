@@ -276,6 +276,9 @@ public class ObjectPool : MonoBehaviourSingleton<ObjectPool>
 	public GameObject Aquire(IPoolable poolable)
 	{
 #if UNITY_EDITOR
+		if (poolable == null)
+			Debug.LogError(message: "`poolable` is null which could mean: 1. Object is null. 2. Object doesn't have a component that inherits IPoolable.");
+
 		if (poolable.Pool == null)
 		{
 			if (this._editorOnlyAddPoolsAutomatically)
